@@ -1,0 +1,6 @@
+git clone https://github.com/hawaker/laravel_jui.git
+cd laravel_jui
+composer install
+composer update
+copy .env.example .env
+php artisan key:genreate
