@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <title>简单实用国产jQuery UI框架 - DWZ富客户端框架(J-UI.com)</title>
 
 <link href="themes/default/style.css" rel="stylesheet" type="text/css" media="screen"/>
@@ -47,6 +48,11 @@ $(function(){
 		}
 	});
 });
+  $.ajaxSetup({
+    headers: {
+      'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    }
+  });
 </script>
 </head>
 
