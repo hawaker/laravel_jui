@@ -16,8 +16,7 @@
 						</tr>
 					</table>
 				</div>
-				{{ csrf_field() }}
-</form>
+			</form>
 		</div>
 	</div>
 	
@@ -38,8 +37,7 @@
 						</tr>
 					</table>
 				</div>
-				{{ csrf_field() }}
-</form>
+			</form>
 		</div>
 	</div>
 	

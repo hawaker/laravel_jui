@@ -26,5 +26,4 @@
 			<li><div class="buttonActive"><div class="buttonContent"><button type="submit">提交</button></div></div></li>
 		</ul>
 	</div>
-	{{ csrf_field() }}
 </form>

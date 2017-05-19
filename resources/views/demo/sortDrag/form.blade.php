@@ -69,5 +69,4 @@
 	</div>  
 
 </div>
-	{{ csrf_field() }}
 </form>

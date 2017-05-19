@@ -94,6 +94,5 @@
 				<li><div class="button"><div class="buttonContent"><button type="reset">清空重输</button></div></div></li>
 			</ul>
 		</div>
-		{{ csrf_field() }}
-</form>
+	</form>
 </div>

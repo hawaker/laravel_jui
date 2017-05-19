@@ -26,6 +26,5 @@
 			<li><div class="button"><div class="buttonContent"><button class="close" type="button">关闭</button></div></div></li>
 		</ul>
 	</div>
-	{{ csrf_field() }}
 </form>
 </div>

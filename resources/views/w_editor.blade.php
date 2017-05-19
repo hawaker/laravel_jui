@@ -57,8 +57,7 @@ upMediaExt:视频本地上传扩展限制 【可选】【默认值： avi】
 							<li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
 						</ul>
 					</div>
-					{{ csrf_field() }}
-</form>
+				</form>
 			</div>
 			
 			<div>

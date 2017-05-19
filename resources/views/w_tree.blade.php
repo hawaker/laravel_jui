@@ -31,7 +31,6 @@
 </ul>
 
 <input type="submit" value="Submit"/>
-	{{ csrf_field() }}
 </form>
 </div>
 

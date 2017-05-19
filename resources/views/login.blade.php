@@ -42,8 +42,7 @@
 					<div class="login_bar">
 						<input class="sub" type="submit" value=" " />
 					</div>
-					{{ csrf_field() }}
-</form>
+				</form>
 			</div>
 			<div class="login_banner"><img src="themes/default/images/login_banner.jpg" /></div>
 			<div class="login_main">

@@ -4,7 +4,6 @@
 	<input type="hidden" name="pageNum" value="1" />
 	<input type="hidden" name="numPerPage" value="${model.numPerPage}" />
 	<input type="hidden" name="orderField" value="${param.orderField}" />
-	{{ csrf_field() }}
 </form>
 
 
@@ -55,8 +54,7 @@
 			</ul>
 		</div>
 	</div>
-		{{ csrf_field() }}
-</form>
+	</form>
 </div>
 <div class="pageContent">
 	<div class="panelBar">

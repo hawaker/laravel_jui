@@ -133,6 +133,5 @@
 				</li>
 			</ul>
 		</div>
-		{{ csrf_field() }}
-</form>
+	</form>
 </div>
